@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XibView_Example' do
+  pod 'XibView', :path => '../'
+
+  target 'XibView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
