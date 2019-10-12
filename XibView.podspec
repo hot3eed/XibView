@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XibView'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XibView.'
+  s.version          = '0.5.0'
+  s.summary          = 'Live-rendering views from .xib files.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,22 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Abdelrahman Eid/XibView'
+  s.homepage         = 'https://github.com/hot3eed/XibView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'Apache 2.0', :file => 'LICENSE' }
   s.author           = { 'Abdelrahman Eid' => 'hot3eed@gmail.com' }
-  s.source           = { :git => 'https://github.com/Abdelrahman Eid/XibView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/hot3eed/XibView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'XibView/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'XibView' => ['XibView/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_versions = '5.0', '4.2', '4.0'
 end
