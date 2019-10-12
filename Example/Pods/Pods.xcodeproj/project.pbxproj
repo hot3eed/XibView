@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		432935E73B77BCD29C0D9F908980F4BB /* XibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F76081A43705979943953CE1DF528A /* XibView-dummy.m */; };
-		4625EB44373BD9F6BAB6195D3EA263B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		59AEC162C2D7385F5A4E20705E363759 /* Pods-XibView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA49A98C4BB4C84A7A0C9CFE079C850 /* Pods-XibView_Tests-dummy.m */; };
 		5F07164D13D0329A21D69988A09C15AE /* XibView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D271B456B4BED4C83E6069229F6A499 /* XibView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BCD23A3517160723D62B659DFC7E6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7F3EAE24357988011F65AEE2ECEE5737 /* Pods-XibView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7F7D3F2A4934DFF5A5D3BA09687BDA /* Pods-XibView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C29D37C2351FD5A00CBFEB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C29D37B2351FD5A00CBFEB7 /* UIKit.framework */; };
 		9A04739BB0F40A6D47945B1E8002B8FB /* Pods-XibView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69605115C6FF70A919A5595DF6E1FF35 /* Pods-XibView_Example-dummy.m */; };
 		C607C6F502FA069E7B873A7B40FEB672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D22B4EEA4A112F7FE65F4287AE92A2F3 /* Pods-XibView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8195569035D3E9D16990A7F525A823 /* Pods-XibView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		113C543DCED8E60BB6E73A2C16631EF0 /* Pods-XibView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1408DD791BDD89539AEDC32F2C318C5A /* Pods-XibView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibView_Example-Info.plist"; sourceTree = "<group>"; };
-		191E3BBA9DF56EC4FA6C70C0FC8C18E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		191E3BBA9DF56EC4FA6C70C0FC8C18E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D271B456B4BED4C83E6069229F6A499 /* XibView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibView-umbrella.h"; sourceTree = "<group>"; };
 		2E3323CC17EC1A9554B9B59EE1D29801 /* Pods-XibView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2F67DD30B387FCEE4F90241E5DAA54F3 /* Pods-XibView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibView_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -51,20 +51,21 @@
 		4159B558EB3116D18F4C15571EEFAF85 /* Pods-XibView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XibView_Example.modulemap"; sourceTree = "<group>"; };
 		4B09DF62BB85D5B8CE385322EE77A4A9 /* XibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibView.swift; path = XibView/Classes/XibView.swift; sourceTree = "<group>"; };
 		4F98377C2C6B94B76296938885FB0842 /* XibView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XibView.modulemap; sourceTree = "<group>"; };
-		68BD350CC0B3C05DE80A8237C9D5B1CD /* XibView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XibView.framework; path = XibView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BD350CC0B3C05DE80A8237C9D5B1CD /* XibView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XibView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69605115C6FF70A919A5595DF6E1FF35 /* Pods-XibView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XibView_Example-dummy.m"; sourceTree = "<group>"; };
-		85BFFF4220AF1CC2EC0D1462F48CDB0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		85BFFF4220AF1CC2EC0D1462F48CDB0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8607736D25F28C952CAF30A611C23CA7 /* Pods-XibView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XibView_Tests.modulemap"; sourceTree = "<group>"; };
-		8CA37ABE86E0E910D9CA5C6E4492A854 /* Pods_XibView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibView_Tests.framework; path = "Pods-XibView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D241B835B85E788352C39D39FA272F2 /* Pods_XibView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibView_Example.framework; path = "Pods-XibView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C29D37B2351FD5A00CBFEB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8CA37ABE86E0E910D9CA5C6E4492A854 /* Pods_XibView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D241B835B85E788352C39D39FA272F2 /* Pods_XibView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB73475EE5282563B166F5EE6933FFD3 /* Pods-XibView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE7F7D3F2A4934DFF5A5D3BA09687BDA /* Pods-XibView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XibView_Example-umbrella.h"; sourceTree = "<group>"; };
 		B45B4C283C6F03B3423709361FA6728D /* XibView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XibView-Info.plist"; sourceTree = "<group>"; };
 		C1F76081A43705979943953CE1DF528A /* XibView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XibView-dummy.m"; sourceTree = "<group>"; };
 		CA8195569035D3E9D16990A7F525A823 /* Pods-XibView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XibView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CD0A759CF858010F5058041AE5238609 /* Pods-XibView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D0FFE4BE5E0A4D67EC20E0B63DC3772A /* XibView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XibView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0FFE4BE5E0A4D67EC20E0B63DC3772A /* XibView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XibView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBA49A98C4BB4C84A7A0C9CFE079C850 /* Pods-XibView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XibView_Tests-dummy.m"; sourceTree = "<group>"; };
 		DCDE42F6E4078C29695EDF0ACD7A0ADF /* XibView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XibView.xcconfig; sourceTree = "<group>"; };
 		F34617953E6A2026729B6A0FE3B1AA92 /* Pods-XibView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -92,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4625EB44373BD9F6BAB6195D3EA263B8 /* Foundation.framework in Frameworks */,
+				8C29D37C2351FD5A00CBFEB7 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +206,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8C29D37B2351FD5A00CBFEB7 /* UIKit.framework */,
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
@@ -426,6 +428,7 @@
 				PRODUCT_NAME = XibView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -525,6 +528,7 @@
 				PRODUCT_NAME = XibView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -586,8 +590,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

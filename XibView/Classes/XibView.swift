@@ -18,7 +18,7 @@ import UIKit
  - Don't forget `@IBDesignable`.
  */
 @IBDesignable
-public class XibView: UIView {
+open class XibView: UIView {
     private var contentView: UIView?
     
     private var nibName: String {
@@ -26,12 +26,12 @@ public class XibView: UIView {
         return String(describing: type(of: self))
     }
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         addContentView()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         addContentView()
     }
