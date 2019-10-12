@@ -1,0 +1,6 @@
+framework module XibView {
+  umbrella header "XibView-umbrella.h"
+
+  export *
+  module * { export * }
+}

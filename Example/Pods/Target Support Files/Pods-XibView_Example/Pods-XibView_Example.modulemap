@@ -1,0 +1,6 @@
+framework module Pods_XibView_Example {
+  umbrella header "Pods-XibView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

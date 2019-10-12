@@ -1,0 +1,16 @@
+PODS:
+  - XibView (0.1.0)
+
+DEPENDENCIES:
+  - XibView (from `../`)
+
+EXTERNAL SOURCES:
+  XibView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XibView: 6acb0b5e26261648c5f14c1889234709d62d34a1
+
+PODFILE CHECKSUM: 43c684ad6b5f099e5937701689ae3cc5ed0bd472
+
+COCOAPODS: 1.8.3
