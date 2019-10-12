@@ -28,7 +28,7 @@ github "hot3eed/XibView"
 ```
 
 ## But UIKit is dead?
-Not yet. SwiftUI is still young and it's backed by UIKit anyway, so it's here to stay.
+Not yet. SwiftUI is still young and it's backed by UIKit anyway, so it's here to stay, for a while at least.
 
 ## Author
 
