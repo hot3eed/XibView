@@ -3,20 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432935E73B77BCD29C0D9F908980F4BB /* XibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F76081A43705979943953CE1DF528A /* XibView-dummy.m */; };
+		4625EB44373BD9F6BAB6195D3EA263B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		59AEC162C2D7385F5A4E20705E363759 /* Pods-XibView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA49A98C4BB4C84A7A0C9CFE079C850 /* Pods-XibView_Tests-dummy.m */; };
-		5F07164D13D0329A21D69988A09C15AE /* XibView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C905A298B3960A01113A8F8D2FBB2E56 /* XibView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F07164D13D0329A21D69988A09C15AE /* XibView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D271B456B4BED4C83E6069229F6A499 /* XibView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BCD23A3517160723D62B659DFC7E6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7F3EAE24357988011F65AEE2ECEE5737 /* Pods-XibView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE7F7D3F2A4934DFF5A5D3BA09687BDA /* Pods-XibView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C60E7332351FB790012031A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C60E7322351FB790012031A /* UIKit.framework */; platformFilter = ios; };
 		9A04739BB0F40A6D47945B1E8002B8FB /* Pods-XibView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69605115C6FF70A919A5595DF6E1FF35 /* Pods-XibView_Example-dummy.m */; };
-		A2545CA5E870C9EB1CA711EEAF889A52 /* XibView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8B47D3B1904F3B8A12C2E185F3D681 /* XibView-dummy.m */; };
 		C607C6F502FA069E7B873A7B40FEB672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D22B4EEA4A112F7FE65F4287AE92A2F3 /* Pods-XibView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8195569035D3E9D16990A7F525A823 /* Pods-XibView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F24AE432267DDF6322A62DCE07C3D2DC /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B383C5A1078D5653B6D6904D831813BC /* ReplaceMe.swift */; };
+		E61F70704D13BF4646EF48E7341B5267 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B09DF62BB85D5B8CE385322EE77A4A9 /* XibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00F0E1E12DF640849C3ECC6BF877629B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		113C543DCED8E60BB6E73A2C16631EF0 /* Pods-XibView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1408DD791BDD89539AEDC32F2C318C5A /* Pods-XibView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibView_Example-Info.plist"; sourceTree = "<group>"; };
+		191E3BBA9DF56EC4FA6C70C0FC8C18E2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D271B456B4BED4C83E6069229F6A499 /* XibView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibView-umbrella.h"; sourceTree = "<group>"; };
 		2E3323CC17EC1A9554B9B59EE1D29801 /* Pods-XibView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2F67DD30B387FCEE4F90241E5DAA54F3 /* Pods-XibView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		31BC15F68D4FEFB64F9CAEE204A6CE01 /* Pods-XibView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XibView_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -48,28 +49,26 @@
 		39DFA0695EE07C7CCA767CDACDB466CE /* Pods-XibView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XibView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3FB95B916D74078EE151E453106050C5 /* Pods-XibView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibView_Tests-Info.plist"; sourceTree = "<group>"; };
 		4159B558EB3116D18F4C15571EEFAF85 /* Pods-XibView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XibView_Example.modulemap"; sourceTree = "<group>"; };
-		5E28E0B02F450AB1B1AC172EACF09B29 /* XibView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XibView.modulemap; sourceTree = "<group>"; };
-		68BD350CC0B3C05DE80A8237C9D5B1CD /* XibView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XibView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B09DF62BB85D5B8CE385322EE77A4A9 /* XibView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XibView.swift; path = XibView/Classes/XibView.swift; sourceTree = "<group>"; };
+		4F98377C2C6B94B76296938885FB0842 /* XibView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XibView.modulemap; sourceTree = "<group>"; };
+		68BD350CC0B3C05DE80A8237C9D5B1CD /* XibView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XibView.framework; path = XibView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69605115C6FF70A919A5595DF6E1FF35 /* Pods-XibView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XibView_Example-dummy.m"; sourceTree = "<group>"; };
-		701800FE54A11BA4D65D7718571C09C1 /* XibView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XibView-Info.plist"; sourceTree = "<group>"; };
+		85BFFF4220AF1CC2EC0D1462F48CDB0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8607736D25F28C952CAF30A611C23CA7 /* Pods-XibView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XibView_Tests.modulemap"; sourceTree = "<group>"; };
-		8C60E7322351FB790012031A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8CA37ABE86E0E910D9CA5C6E4492A854 /* Pods_XibView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D241B835B85E788352C39D39FA272F2 /* Pods_XibView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XibView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93BFF408293033A26157E509A0FB7D2D /* XibView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XibView.xcconfig; sourceTree = "<group>"; };
-		9CF958C7B7DF66E3BACDF731C58E57B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CA37ABE86E0E910D9CA5C6E4492A854 /* Pods_XibView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibView_Tests.framework; path = "Pods-XibView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D241B835B85E788352C39D39FA272F2 /* Pods_XibView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XibView_Example.framework; path = "Pods-XibView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB73475EE5282563B166F5EE6933FFD3 /* Pods-XibView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		AE7F7D3F2A4934DFF5A5D3BA09687BDA /* Pods-XibView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XibView_Example-umbrella.h"; sourceTree = "<group>"; };
-		B383C5A1078D5653B6D6904D831813BC /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = XibView/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		B6A21CCD5D63CC8114FA93AF66E1A91B /* XibView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XibView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C905A298B3960A01113A8F8D2FBB2E56 /* XibView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibView-umbrella.h"; sourceTree = "<group>"; };
+		B45B4C283C6F03B3423709361FA6728D /* XibView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XibView-Info.plist"; sourceTree = "<group>"; };
+		C1F76081A43705979943953CE1DF528A /* XibView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XibView-dummy.m"; sourceTree = "<group>"; };
 		CA8195569035D3E9D16990A7F525A823 /* Pods-XibView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XibView_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CD0A759CF858010F5058041AE5238609 /* Pods-XibView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XibView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CF60ED3B5AC058B8B67DCDE5A881DD81 /* XibView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibView-prefix.pch"; sourceTree = "<group>"; };
+		D0FFE4BE5E0A4D67EC20E0B63DC3772A /* XibView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XibView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBA49A98C4BB4C84A7A0C9CFE079C850 /* Pods-XibView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XibView_Tests-dummy.m"; sourceTree = "<group>"; };
-		EC8B47D3B1904F3B8A12C2E185F3D681 /* XibView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XibView-dummy.m"; sourceTree = "<group>"; };
+		DCDE42F6E4078C29695EDF0ACD7A0ADF /* XibView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XibView.xcconfig; sourceTree = "<group>"; };
 		F34617953E6A2026729B6A0FE3B1AA92 /* Pods-XibView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XibView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC03EB88256DB0EC5A36E92CAC23CAB8 /* XibView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XibView-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,22 +92,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C60E7332351FB790012031A /* UIKit.framework in Frameworks */,
+				4625EB44373BD9F6BAB6195D3EA263B8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A13001254C3F20566B4CCB8D727FBC0 /* Support Files */ = {
+		0DFC9D653877644EA4D85A5F9F96FF71 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E28E0B02F450AB1B1AC172EACF09B29 /* XibView.modulemap */,
-				93BFF408293033A26157E509A0FB7D2D /* XibView.xcconfig */,
-				EC8B47D3B1904F3B8A12C2E185F3D681 /* XibView-dummy.m */,
-				701800FE54A11BA4D65D7718571C09C1 /* XibView-Info.plist */,
-				CF60ED3B5AC058B8B67DCDE5A881DD81 /* XibView-prefix.pch */,
-				C905A298B3960A01113A8F8D2FBB2E56 /* XibView-umbrella.h */,
+				4F98377C2C6B94B76296938885FB0842 /* XibView.modulemap */,
+				DCDE42F6E4078C29695EDF0ACD7A0ADF /* XibView.xcconfig */,
+				C1F76081A43705979943953CE1DF528A /* XibView-dummy.m */,
+				B45B4C283C6F03B3423709361FA6728D /* XibView-Info.plist */,
+				FC03EB88256DB0EC5A36E92CAC23CAB8 /* XibView-prefix.pch */,
+				1D271B456B4BED4C83E6069229F6A499 /* XibView-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/XibView";
@@ -133,16 +132,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		653A75F048FA6667B32E1A0DF23BB102 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				00F0E1E12DF640849C3ECC6BF877629B /* LICENSE */,
-				9CF958C7B7DF66E3BACDF731C58E57B1 /* README.md */,
-				B6A21CCD5D63CC8114FA93AF66E1A91B /* XibView.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		76EFDE714ED8BD8FF9B5956F72816DD5 /* Pods-XibView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,17 +147,6 @@
 			);
 			name = "Pods-XibView_Example";
 			path = "Target Support Files/Pods-XibView_Example";
-			sourceTree = "<group>";
-		};
-		80DB738A5A008CBA9B6676690813CB6A /* XibView */ = {
-			isa = PBXGroup;
-			children = (
-				B383C5A1078D5653B6D6904D831813BC /* ReplaceMe.swift */,
-				653A75F048FA6667B32E1A0DF23BB102 /* Pod */,
-				0A13001254C3F20566B4CCB8D727FBC0 /* Support Files */,
-			);
-			name = XibView;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		89E25B276123BFC9430CCD7A6295BA7F /* Pods-XibView_Tests */ = {
@@ -187,10 +165,20 @@
 			path = "Target Support Files/Pods-XibView_Tests";
 			sourceTree = "<group>";
 		};
+		8C78CCC1061E8228A011FC4FF1F50FE6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				85BFFF4220AF1CC2EC0D1462F48CDB0D /* LICENSE */,
+				191E3BBA9DF56EC4FA6C70C0FC8C18E2 /* README.md */,
+				D0FFE4BE5E0A4D67EC20E0B63DC3772A /* XibView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		989E233C47F5ECC85CE1949AA6039708 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				80DB738A5A008CBA9B6676690813CB6A /* XibView */,
+				EC8DBFB08087B0AC462373600647C0A8 /* XibView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -217,10 +205,20 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8C60E7322351FB790012031A /* UIKit.framework */,
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC8DBFB08087B0AC462373600647C0A8 /* XibView */ = {
+			isa = PBXGroup;
+			children = (
+				4B09DF62BB85D5B8CE385322EE77A4A9 /* XibView.swift */,
+				8C78CCC1061E8228A011FC4FF1F50FE6 /* Pod */,
+				0DFC9D653877644EA4D85A5F9F96FF71 /* Support Files */,
+			);
+			name = XibView;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +294,7 @@
 			buildConfigurationList = 3FBB6705BEC549489A81A43207487A2E /* Build configuration list for PBXNativeTarget "XibView" */;
 			buildPhases = (
 				A34206FF65A9BC948B542BEA524716AB /* Headers */,
-				136E5B4D142FF95E4EF2B86D9F632BB8 /* Sources */,
+				136ABDA67BD24437CA8A6E48C91DB898 /* Sources */,
 				71217F87F7BE35EF2BFD19C110B6336A /* Frameworks */,
 				2E3588D318AA2CF2711067C9FAB857B6 /* Resources */,
 			);
@@ -317,11 +315,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					E6B242E7BCA0E46F35FEA9E43D80B359 = {
-						LastSwiftMigration = 1110;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -329,7 +322,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 1D1362177158ED0BD06CFC35BA297DC0 /* Products */;
@@ -368,12 +360,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		136E5B4D142FF95E4EF2B86D9F632BB8 /* Sources */ = {
+		136ABDA67BD24437CA8A6E48C91DB898 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F24AE432267DDF6322A62DCE07C3D2DC /* ReplaceMe.swift in Sources */,
-				A2545CA5E870C9EB1CA711EEAF889A52 /* XibView-dummy.m in Sources */,
+				432935E73B77BCD29C0D9F908980F4BB /* XibView-dummy.m in Sources */,
+				E61F70704D13BF4646EF48E7341B5267 /* XibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +403,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		032BBAC507088652488AA4AFD2FC3F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDE42F6E4078C29695EDF0ACD7A0ADF /* XibView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XibView/XibView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XibView/XibView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XibView/XibView.modulemap";
+				PRODUCT_MODULE_NAME = XibView;
+				PRODUCT_NAME = XibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		24A68C4C4C018A95C3871199D51D9586 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F67DD30B387FCEE4F90241E5DAA54F3 /* Pods-XibView_Example.debug.xcconfig */;
@@ -428,11 +452,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-XibView_Example/Pods-XibView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XibView_Example/Pods-XibView_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -447,79 +467,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		2FE9C557E18149C317B97C7B033A8862 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93BFF408293033A26157E509A0FB7D2D /* XibView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XibView/XibView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XibView/XibView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XibView/XibView.modulemap";
-				PRODUCT_MODULE_NAME = XibView;
-				PRODUCT_NAME = XibView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		463E4DB56E9050490E663179F3830CD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93BFF408293033A26157E509A0FB7D2D /* XibView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XibView/XibView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XibView/XibView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XibView/XibView.modulemap";
-				PRODUCT_MODULE_NAME = XibView;
-				PRODUCT_NAME = XibView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		51629BA219FC95D54BE1BD0148A8B322 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -538,11 +485,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-XibView_Tests/Pods-XibView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XibView_Tests/Pods-XibView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -558,6 +501,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		96E7F3F8E91364FA8C84412369727C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDE42F6E4078C29695EDF0ACD7A0ADF /* XibView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XibView/XibView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XibView/XibView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XibView/XibView.modulemap";
+				PRODUCT_MODULE_NAME = XibView;
+				PRODUCT_NAME = XibView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -700,11 +674,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-XibView_Example/Pods-XibView_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XibView_Example/Pods-XibView_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -738,11 +708,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-XibView_Tests/Pods-XibView_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XibView_Tests/Pods-XibView_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -773,8 +739,8 @@
 		3FBB6705BEC549489A81A43207487A2E /* Build configuration list for PBXNativeTarget "XibView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FE9C557E18149C317B97C7B033A8862 /* Debug */,
-				463E4DB56E9050490E663179F3830CD6 /* Release */,
+				96E7F3F8E91364FA8C84412369727C50 /* Debug */,
+				032BBAC507088652488AA4AFD2FC3F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
