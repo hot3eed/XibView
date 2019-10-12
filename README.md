@@ -1,6 +1,5 @@
 # XibView
 
-[![CI Status](https://img.shields.io/travis/Abdelrahman Eid/XibView.svg?style=flat)](https://travis-ci.org/Abdelrahman Eid/XibView)
 [![Version](https://img.shields.io/cocoapods/v/XibView.svg?style=flat)](https://cocoapods.org/pods/XibView)
 [![License](https://img.shields.io/cocoapods/l/XibView.svg?style=flat)](https://cocoapods.org/pods/XibView)
 [![Platform](https://img.shields.io/cocoapods/p/XibView.svg?style=flat)](https://cocoapods.org/pods/XibView)
